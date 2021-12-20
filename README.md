@@ -1,5 +1,18 @@
 # piro360
 
+Piro360 is a mobile app that lets a user tap a button in the app, and then the user has 10 seconds to pirouette 360 degrees in a circle holding 
+their phone and pointing outward capturing a panorama recording. 
+The app starts the video camera and records for 10 seconds, as the user pirouettes, it records where the user is. When the recording is finished 
+the user can tag the video with tags, and then is given the option to post it to the piro360.com website for the world to see.
+
+## wireframe
+
+![Initial Wireframes](./docs/Piro360WF1.png)
+
+## data model
+
+![Initial Data Model](./piro-datamodel.png)
+
 This application was generated using JHipster 7.4.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.4.1](https://www.jhipster.tech/documentation-archive/v7.4.1).
 
 ## Project Structure

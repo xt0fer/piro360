@@ -1,4 +1,5 @@
-Piro360
+# Piro360
+
 Piro360 is a mobile app that lets a user tap a button in the app, and then the user has 10 seconds to pirouette 360 degrees in a circle holding 
 their phone and pointing outward capturing a panorama recording. 
 The app starts the video camera and records for 10 seconds, as the user pirouettes, it records where the user is. When the recording is finished 
