@@ -40,6 +40,8 @@
     "devServerPort": 9060,
     "clientPackageManager": "npm",
     "languages": ["en"],
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["Pirovideo", "Tag", "Person"],
+    "lastLiquibaseTimestamp": 1640017769000
   }
 }

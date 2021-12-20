@@ -1,0 +1,37 @@
+{
+  "name": "Tag",
+  "fields": [
+    {
+      "fieldName": "contents",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "commentDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "pirovideo",
+      "otherEntityRelationshipName": "tag",
+      "relationshipName": "pirovideo"
+    }
+  ],
+  "javadoc": "Tags for attaching to videos.",
+  "entityTableName": "tag",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "angularJSSuffix": "piroV",
+  "changelogDate": "20211220162928"
+}

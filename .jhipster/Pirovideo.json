@@ -1,0 +1,50 @@
+{
+  "name": "Pirovideo",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "notes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "vidurl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "recordDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "tag",
+      "otherEntityRelationshipName": "pirovideo",
+      "relationshipName": "tag"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "pirovideo",
+      "relationshipName": "owner"
+    }
+  ],
+  "entityTableName": "pirovideo",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "angularJSSuffix": "piroV",
+  "changelogDate": "20211220162927"
+}

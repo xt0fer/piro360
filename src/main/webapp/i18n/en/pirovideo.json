@@ -1,0 +1,30 @@
+{
+  "piro360App": {
+    "pirovideo": {
+      "home": {
+        "title": "Pirovideos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Pirovideo",
+        "createOrEditLabel": "Create or edit a Pirovideo",
+        "notFound": "No Pirovideos found"
+      },
+      "created": "A new Pirovideo is created with identifier {{ param }}",
+      "updated": "A Pirovideo is updated with identifier {{ param }}",
+      "deleted": "A Pirovideo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Pirovideo {{ id }}?"
+      },
+      "detail": {
+        "title": "Pirovideo"
+      },
+      "id": "ID",
+      "title": "Title",
+      "notes": "Notes",
+      "location": "Location",
+      "vidurl": "Vidurl",
+      "recordDate": "Record Date",
+      "tag": "Tag",
+      "owner": "Owner"
+    }
+  }
+}

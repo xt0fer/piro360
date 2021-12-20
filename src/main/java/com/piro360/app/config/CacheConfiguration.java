@@ -48,6 +48,11 @@ public class CacheConfiguration {
             createCache(cm, com.piro360.app.domain.User.class.getName());
             createCache(cm, com.piro360.app.domain.Authority.class.getName());
             createCache(cm, com.piro360.app.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.piro360.app.domain.Pirovideo.class.getName());
+            createCache(cm, com.piro360.app.domain.Pirovideo.class.getName() + ".tags");
+            createCache(cm, com.piro360.app.domain.Tag.class.getName());
+            createCache(cm, com.piro360.app.domain.Person.class.getName());
+            createCache(cm, com.piro360.app.domain.Person.class.getName() + ".pirovideos");
             // jhipster-needle-ehcache-add-entry
         };
     }
