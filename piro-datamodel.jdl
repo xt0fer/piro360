@@ -1,0 +1,47 @@
+entity Pirovideo {
+	title String,
+	notes String,
+    location String, // some kind of lat lon map coords
+    vidurl String, // the s3 video url
+	recordDate Instant
+}
+
+/**
+ * Tags for attaching to videos.
+ */
+entity Tag {
+	contents String,
+    location String, // some kind of lat lon map coords
+	commentDate Instant
+}
+/**
+ * The Person taking the video entity.
+ */
+entity Person {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+	lastName String,
+	email String,
+	phoneNumber String
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Person to Pirovideo{owner},
+	Pirovideo to Tag
+}
+
+// Set pagination options
+//paginate Recipe, Chefster, Post with infinite-scroll
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+//except Employee, Job
+
+// Set an angular suffix
+angularSuffix * with piroV
